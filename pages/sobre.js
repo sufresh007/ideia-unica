@@ -1,9 +1,9 @@
-function Sobre(){
+function sobre(){
     return (<div>
-            <h1>Sobre</h1>
+            <h1>sobre</h1>
             <a href="/">Acessar pagina Home</a>
         </div>
     )
 }
 
-export default Sobre
+export default sobre
