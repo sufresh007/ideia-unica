@@ -12,7 +12,7 @@ function Tempo(props){
 }
 
 export function getStaticProps(){
-    console.log('>passando pelo getStaticProps;')
+    console.log('>passando pelo getStaticProps();')
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
 
@@ -24,4 +24,4 @@ export function getStaticProps(){
 
 }
 
-export default Tempo
+export default Tempo;
