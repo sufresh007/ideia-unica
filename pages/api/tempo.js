@@ -6,4 +6,4 @@ function tempo(request, response){
     });
 }
 
-export default Tempo;
+export default tempo;
